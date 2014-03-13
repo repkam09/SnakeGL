@@ -16,9 +16,7 @@ public class GameMain {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		GameEngine.init();
-		GameEngine.printBoard();
-		
+		GameEngine.init();	
 		GameEngine.startGame();
 	}
 }
